@@ -1,0 +1,42 @@
+# Initialize git
+git init
+
+# Create local git branch and checkout
+git checkout -b SIT
+
+# Set global useremail
+git config --global user.email "lpenke@informatica.com"
+
+# Set global username (used to do all the changes in Git)
+git config --global user.name "lpenke-infa"
+
+# Pull data from the branch (from cloud git pull data)
+git pull https://lpenke-infa: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@github.com:443/lpenke-infa/Branches SIT --allow-unrelated-histories
+
+# Checkout to git branch
+git checkout SIT
+
+# Check current git branch
+git branch
+
+# Set cloud git branch to current git branch and push code (set upstream branch - only once)
+git push --set-upstream https://lpenke-infa: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@github.com:443/lpenke-infa/Branches SIT
+
+# copy/modify changes in the git
+
+# Add files to git
+git add .
+git add filename.txt
+
+# Check git status
+git status
+
+# Commit/Save all the changes to git with message
+git commit -m "filename.txt added"
+
+# Push all the code to git
+git push https://lpenke-infa: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@github.com:443/lpenke-infa/Branches
+
+
+# Delete local git branch and checkout (Branch will be available in the cloud)
+git branch -D SIT
