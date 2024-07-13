@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 scdnvs efw
+=======
+xcdvkscd.
+>>>>>>> ea14fb4ca72f2d6bde2e0c993c6afd6dc167bdd9
