@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 xcdvkscd.
 We will see mod one
 jadsf
+=======
+<<<<<<< HEAD
+scdnvs efw
+=======
+xcdvkscd.
+>>>>>>> ea14fb4ca72f2d6bde2e0c993c6afd6dc167bdd9
+>>>>>>> 166c5028924300c59ff274e6b729f5e0ea285907
